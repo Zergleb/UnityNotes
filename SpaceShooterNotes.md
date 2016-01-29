@@ -14,3 +14,5 @@ With orthographic you can change the orthographic size which does something simi
 Can click on the label of the field and drag the value and have it update in real time in the Inspector view(When I say label I mean the label "Z" for example in transform rather than the input box for "Z")
 
 Unity 5 has a default skybox in the lighting tab, to remove the skybox you must go there rather than the camera.
+
+Unity 5 Ambient light is now handled in the lighting tab. Ambient light gives a small amount of light on all things regardless of light settings.
