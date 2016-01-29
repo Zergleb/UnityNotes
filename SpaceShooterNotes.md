@@ -15,4 +15,4 @@ Can click on the label of the field and drag the value and have it update in rea
 
 Unity 5 has a default skybox in the lighting tab, to remove the skybox you must go there rather than the camera.
 
-Unity 5 Ambient light is now handled in the lighting tab. Ambient light gives a small amount of light on all things regardless of light settings.
+Unity 5 Ambient light is now handled in the lighting tab. Ambient light gives a small amount of light on all things regardless of light sources.
