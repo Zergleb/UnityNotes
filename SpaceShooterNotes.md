@@ -33,3 +33,9 @@ Check console after code changes to check for errors.
 Mathf is a tool in unity for doing common math operations
 
 Mathf.Clamp keeps a number between 2 other numbers.
+
+This is a data object created for unity but cannot be seen until it is serializable. Must write this or it will not allow changes in unity. have it extend nothing.
+[System.Serializable]
+public class Boundary {
+    public float xMin, xMax, zMin, zMax;
+}
