@@ -10,3 +10,5 @@ Camera can be perspective or orthographic. It says an upright arcade game uses o
 Perspective cameras have a Field Of View setting. Making it so your distance doesn't change but you can fit a wider angle in. 
 
 With orthographic you can change the orthographic size which does something similar but probably doesn't give the camera a "wide lens" type of view by enlarging it.
+
+Can click on the label of the field and drag the value and have it update in real time in the Inspector view(When I say label I mean the label "Z" for example in transform rather than the input box for "Z")
