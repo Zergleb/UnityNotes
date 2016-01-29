@@ -5,7 +5,7 @@ Capsule collider can be used for varying shapes of objects and is more efficient
 
 Can create simplified mesh colliders to be more performant when using mesh collider.
 
-Camera can be perspective or orthographic. It says an upright arcade game uses orthographic but why? Probably check a dictionary. My guess is that perspective renders the edges like eyeballs while orthographic renders the edge scene the same as the middle scene.
+Camera can be perspective or orthographic. Perspective are like most games while orthographic reminds me of 2d games. You can change x and z to change the position of the object on the view but changing y does not do anything other than layer the otehr 3d objects. Reminds me of how sprites only have x/y coords but using 3d models instead.
 
 Perspective cameras have a Field Of View setting. Making it so your distance doesn't change but you can fit a wider angle in. 
 
