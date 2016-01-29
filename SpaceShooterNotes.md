@@ -20,3 +20,7 @@ Unity 5 Ambient light is now handled in the lighting tab. Ambient light gives a 
 Turn ambient light to black as you cannot turn ambient light off.
 
 Feel free to use objects as folders
+
+A quad is like 2 triangles making a square and is good for backgrounds(Remove colliders)
+
+Images can be dragged on to components and it will create a material for you.
