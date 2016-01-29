@@ -27,3 +27,5 @@ Images can be dragged on to components and it will create a material for you.
 
 float moveHorizontal = Input.GetAxis("Horizontal");
 float moveVertical = Input.GetAxis("Vertical");	
+
+Check console after code changes to check for errors.
