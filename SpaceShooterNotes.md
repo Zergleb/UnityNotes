@@ -29,3 +29,7 @@ float moveHorizontal = Input.GetAxis("Horizontal");
 float moveVertical = Input.GetAxis("Vertical");	
 
 Check console after code changes to check for errors.
+
+Mathf is a tool in unity for doing common math operations
+
+Mathf.Clamp keeps a number between 2 other numbers.
