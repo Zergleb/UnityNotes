@@ -39,3 +39,5 @@ This is a data object created for unity but cannot be seen until it is serializa
 public class Boundary {
     public float xMin, xMax, zMin, zMax;
 }
+
+Quaternion.Euler(0f, 0f, rb.velocity.z); This creates a tilt amount I should look more into what Euler and Quaternion is.
