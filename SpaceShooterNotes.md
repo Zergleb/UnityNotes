@@ -47,3 +47,5 @@ Shaders affect how things are displayed in the game without a proper knowledge o
 Diffuse Shader leaves a black box around our bolt shot. They use particales additive Unity 5 defaults to mobile/particles/additive.
 
 Mobile shaders are more efficient and are mostly the same. By choosing to use the mobile additive instead of additive we lose the ability to change the tint on the lazer bolt.
+
+Personal observation is that we should have the bolt be kinematic so that it does not interact with the physics in the game.
