@@ -66,12 +66,13 @@ Remember that many unity classes have things that are useful for games that you 
 
 With multiple particle systems they don't both offer autodestruct which leads to memory leaks but this Component can be added
 
-public class AutoDestructParticle : MonoBehaviour {
-	void Start () {
-        ParticleSystem thisSystem = GetComponent<ParticleSystem>();
-        if (!thisSystem.loop)
-        {
-            Destroy(this.gameObject, thisSystem.duration + thisSystem.startLifetime); // <-- See what I changed?
+
+    public class AutoDestructParticle : MonoBehaviour {
+    	void Start () {
+            ParticleSystem thisSystem = GetComponent<ParticleSystem>();
+            if (!thisSystem.loop)
+            {
+                Destroy(this.gameObject, thisSystem.duration + thisSystem.startLifetime); // <-- See what I changed?
+            }
         }
     }
-}
