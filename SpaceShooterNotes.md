@@ -53,3 +53,5 @@ Mobile shaders are more efficient and are mostly the same. By choosing to use th
 In order to get things like directions we can say things like transform.forward possibly getting other relative directions we can grab them from the transform.
 
 Edit > Project Settings > Script Excecution - Allows ordering of script execution appears to be important for LockStep games as this could cause inconsistincies
+
+http://docs.unity3d.com/ScriptReference/Quaternion.html
