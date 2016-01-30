@@ -57,3 +57,5 @@ Edit > Project Settings > Script Excecution - Allows ordering of script executio
 http://docs.unity3d.com/ScriptReference/Quaternion.html
 
 Any time we call Instantiate we need to clean up our object or have too many objects. This should be code reviewed and no instatiate should make it through without proper cleaning. (We could eval the code and make sure we count our cleaning and instantiating.)
+
+Remember I'm going to think things like what method do I create to interact with something like a TriggerEvent or the such I should hit Ctrl + Alt + M, Ctrl + H to see the documentation for a certain word(Select word to search for that word for example "trigger")
