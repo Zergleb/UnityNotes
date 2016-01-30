@@ -61,3 +61,5 @@ Any time we call Instantiate we need to clean up our object or have too many obj
 Remember I'm going to think things like what method do I create to interact with something like a TriggerEvent or the such I should hit Ctrl + Alt + M, Ctrl + H to see the documentation for a certain word(Select word to search for that word for example "trigger")
 
 OnTriggerEnter seems typical but remember there is an OnTriggerExit that you can use for players out of bounds or just for normal enter leave scenarios.
+
+Remember that many unity classes have things that are useful for games that you might not think of at first. Try to memorize them. Maybe make a different document?? Example Random.insideUnitSphere(Creates a vector3 with random x, y, z values separately)
