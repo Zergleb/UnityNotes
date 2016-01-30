@@ -76,3 +76,5 @@ With multiple particle systems they don't both offer autodestruct which leads to
             }
         }
     }
+
+Components have a gameObject property as well as a transform property which does not appear to be deprecated for GetComponent<Transform>
