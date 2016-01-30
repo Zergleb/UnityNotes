@@ -55,3 +55,5 @@ In order to get things like directions we can say things like transform.forward 
 Edit > Project Settings > Script Excecution - Allows ordering of script execution appears to be important for LockStep games as this could cause inconsistincies
 
 http://docs.unity3d.com/ScriptReference/Quaternion.html
+
+Any time we call Instantiate we need to clean up our object or have too many objects. This should be code reviewed and no instatiate should make it through without proper cleaning. (We could eval the code and make sure we count our cleaning and instantiating.)
