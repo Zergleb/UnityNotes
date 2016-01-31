@@ -78,3 +78,26 @@ With multiple particle systems they don't both offer autodestruct which leads to
     }
 
 Components have a gameObject property as well as a transform property which does not appear to be deprecated for GetComponent<Transform>
+
+In C# they have yield like I have seen in es6 which keeps the game from freezing.
+
+ void Start ()
+{
+    StartCoroutine (SpawnWaves ());
+}
+
+IEnumerator SpawnWaves ()
+    {
+        yield return new WaitForSeconds (startWait);
+        while (true)
+        {
+            for (int i = 0; i < hazardCount; i++)
+            {
+                Vector3 spawnPosition = new Vector3 (Random.Range (-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
+                Quaternion spawnRotation = Quaternion.identity;
+                Instantiate (hazard, spawnPosition, spawnRotation);
+                yield return new WaitForSeconds (spawnWait);
+            }
+            yield return new WaitForSeconds (waveWait);
+        }
+    }
