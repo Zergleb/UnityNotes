@@ -101,3 +101,7 @@ In C# they have yield like I have seen in es6 which keeps the game from freezing
                 yield return new WaitForSeconds (waveWait);
             }
         }
+
+GUIText uses a ViewPort instead of the pixels of the screen Viewport width and height is always 1 and 1 (Or rather 0 to 100% starting in the bottom left 1, 1 is in the top right corner)
+
+Use audio source component Play to play a sound just add a sound and add it to a component to play(Research needed for playing multiple sounds)
