@@ -1,0 +1,20 @@
+GameObject > 3D Object > Terrain
+
+Right mouse key and WASD and QE navigate "flying" through the editor
+
+Far right is terrain properties(gear icon)
+
+Pixel Error > value Accuracy between heightmaps and rendering of the terrain. Less rendering overhead for high values.
+
+Base Map Distance > Max distance terrain will be rendered at full resolution.
+
+Cast Shadows > Obvious
+
+Material > Diff Unity 4 to Unity 5 select material that is used to render the terrain (Isn't showing difference now try with real terrain)
+
+Thickness is considered for collision(Keeps high speed objects from tearing through the terrain)
+
+Using Shift you can remove all trees, using ctrl you can remove trees of the type you have selected.
+
+You can enable tree colliders in terrain. or disable if they are not important to the gameplay.
+
