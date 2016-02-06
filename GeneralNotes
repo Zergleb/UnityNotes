@@ -1,3 +1,5 @@
 Relative force applies force to an object based on the facing of said object. Add Force applies force to an object without taking this into consideration so instead of a force pushing forward facing a force might always push north according to the scene.
 
 Vector3.forward is a thing. it can be used to determine which way is forward to push an object.
+
+Is turning using the transform better than using some type of force to turn???
