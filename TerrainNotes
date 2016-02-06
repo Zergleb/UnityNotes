@@ -23,3 +23,7 @@ Look for water as a prefab in environment. You simply place and scale and it goe
 For probes he chooses to include skybox(Does this mean it reflects and also reflects the skybox?)
 
 Water has lots of attributes for waves that can be played with.
+
+Water pro and water basic are the same except pro has an option to set to simple to behave like basic. Then use non-simple to have reflections.
+
+When creating a skybox add it to the Scene(unless in outer space) otherwise water will not reflect the skybox that you see it will reflect the skybox in the scene.
